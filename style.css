@@ -1,0 +1,61 @@
+/* Global Styles */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Typography */
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Glassmorphism Effect for Navbar */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* Hero Section Background */
+.hero-bg {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://i.pinimg.com/736x/49/19/c5/4919c5c03ffd9c188ae991ca5a7ea9de.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Optional: adds a parallax-like effect */
+}
+
+/* Utility for footer social icons */
+.social-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 9999px;
+    background-color: #1f2937; /* Gray-800 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #b91c1c; /* Red-700 */
+    transform: translateY(-3px);
+}
+
+/* Custom Scrollbar (Optional) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b91c1c;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #991b1b;
+}
